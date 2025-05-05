@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { hash } from "bcrypt";
+import { hash } from "bcryptjs";
 import connectDB from "@/lib/db";
 import User from "@/models/user";
 import { UserRole } from "@/types";
